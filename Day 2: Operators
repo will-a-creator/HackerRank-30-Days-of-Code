@@ -20,7 +20,7 @@ class Result {
     public static void solve(double meal_cost, int tip_percent, int tax_percent) {
     // Write your code here
         double total = meal_cost + (meal_cost * tip_percent/100) + (meal_cost * tax_percent/100);
-        int totalRound = (int)total;
+        int totalRound = (int)Math.round(total);
         System.out.print(totalRound);
     }
 
