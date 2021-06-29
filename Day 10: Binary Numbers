@@ -16,7 +16,7 @@ public class Solution {
 
         bufferedReader.close();
         
-        String binary = Integer.toBinaryString(n); //converts to binary string
+        String binary = Integer.toBinaryString(n); //converts to binary string (not needed for this exercise)
         int max = 0;
         int max2= 0;
         
